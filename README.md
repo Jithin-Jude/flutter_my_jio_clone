@@ -1,4 +1,4 @@
-# flutter_my_jio_clone
+# Flutter - MyJio App Clone
 
 My Jio App developed in Flutter.
 
