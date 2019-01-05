@@ -28,58 +28,74 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: new AppBar(title: new Text("My Jio - Clone"), backgroundColor: Color(0xff2a3890), centerTitle: true, elevation: 0,),
-      drawer: new Drawer(
-        child: new ListView(
+      appBar: AppBar(
+        title: Text("MyJio - Clone", style: TextStyle(fontWeight: FontWeight.w400),),
+        backgroundColor: Color(0xff2a3890),
+        centerTitle: true, elevation: 0,
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.mic, color: Colors.white, size: 28,),
+            tooltip: 'Apps',
+            onPressed: null,
+          ),
+          IconButton(
+          icon: Icon(Icons.apps, color: Colors.white, size: 28,),
+          tooltip: 'Apps',
+          onPressed: null,
+        )
+        ],
+      ),
+      drawer: Drawer(
+        child: ListView(
           children: <Widget>[
-            new Container(
+             Container(
                 margin: EdgeInsets.only(left: 20, top: 20,right: 0, bottom: 0 ),
-                child : Text("JITHIN JUDE", style: TextStyle(fontSize: 22 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),)
+                child : Text("JITHIN JUDE", style: TextStyle(fontSize: 22 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),)
             ),
-            new Container(
+             Container(
                 margin: EdgeInsets.only(left: 20, top: 5,right: 0, bottom: 20 ),
-                child : Text("Profile & other settings", style: TextStyle(fontSize: 14 , fontWeight: FontWeight.w500, color:  new Color(0xff2a3890)),)
+                child : Text("Profile & other settings", style: TextStyle(fontSize: 14 , fontWeight: FontWeight.w500, color:  Color(0xff2a3890)),)
             ),
             Divider( color: Color(0xff7B7B7B),),
-            new ListTile(
-              title: new Text("Recharge", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),),
-              leading: new Icon(Icons.refresh, color: new Color(0xff2a3890),),
+             ListTile(
+              title:  Text("Recharge", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),),
+              leading: Icon(Icons.refresh, color: Color(0xff2a3890),),
             ),
-            new ListTile(
-              title: new Text("My vouchers", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),),
-              leading: new Icon(Icons.card_giftcard, color: new Color(0xff2a3890),),
+            ListTile(
+              title: Text("My vouchers", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),),
+              leading: Icon(Icons.card_giftcard, color: Color(0xff2a3890),),
             ),
-            new ListTile(
-              title: new Text("JioInteract", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),),
-              leading: new Icon(Icons.refresh, color: new Color(0xff2a3890),),
+            ListTile(
+              title: Text("JioInteract", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),),
+              leading: Icon(Icons.refresh, color: Color(0xff2a3890),),
             ),
-            new ListTile(
-              title: new Text("My plans", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),),
-              leading: new Icon(Icons.format_list_bulleted, color: new Color(0xff2a3890),),
+            ListTile(
+              title: Text("My plans", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),),
+              leading: Icon(Icons.format_list_bulleted, color: Color(0xff2a3890),),
             ),
-            new ListTile(
-              title: new Text("JioPay", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),),
-              leading: new Icon(Icons.refresh, color: new Color(0xff2a3890),),
+            ListTile(
+              title: Text("JioPay", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),),
+              leading: Icon(Icons.refresh, color: Color(0xff2a3890),),
             ),
-            new ListTile(
-              title: new Text("My coupons", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),),
-              leading: new Icon(Icons.refresh, color: new Color(0xff2a3890),),
+            ListTile(
+              title: Text("My coupons", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),),
+              leading: Icon(Icons.refresh, color: Color(0xff2a3890),),
             ),
-            new ListTile(
-              title: new Text("My statement", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),),
-              leading: new Icon(Icons.refresh, color: new Color(0xff2a3890),),
+            ListTile(
+              title: Text("My statement", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),),
+              leading: Icon(Icons.refresh, color: Color(0xff2a3890),),
             ),
-            new ListTile(
-              title: new Text("Jio care", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),),
-              leading: new Icon(Icons.phone, color: new Color(0xff2a3890),),
+            ListTile(
+              title: Text("Jio care", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),),
+              leading: Icon(Icons.phone, color: Color(0xff2a3890),),
             ),
-            new ListTile(
-              title: new Text("Locate us", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),),
-              leading: new Icon(Icons.location_on, color: new Color(0xff2a3890),),
+            ListTile(
+              title: Text("Locate us", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),),
+              leading: Icon(Icons.location_on, color: Color(0xff2a3890),),
             ),
-            new ListTile(
-              title: new Text("Settings", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  new Color(0xff000000)),),
-              leading: new Icon(Icons.settings, color: new Color(0xff2a3890),),
+            ListTile(
+              title: Text("Settings", style: TextStyle(fontSize: 18 , fontWeight: FontWeight.w400, color:  Color(0xff000000)),),
+              leading: Icon(Icons.settings, color: Color(0xff2a3890),),
             )
           ],
         ),

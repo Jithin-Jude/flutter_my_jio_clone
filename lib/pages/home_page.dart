@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget{
                   ),
                 ),
                 height: 200.0,
-                padding: EdgeInsets.only(top: 20, bottom: 20),
+                padding: EdgeInsets.only(top: 0, bottom: 20),
                 child: new ListView(
                   scrollDirection: Axis.horizontal,
                   children: new List.generate(7, (int index) {
