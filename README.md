@@ -14,3 +14,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
+
+## Screen Recording
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/B5NuHXx0VMM/0.jpg)](https://www.youtube.com/watch?v=B5NuHXx0VMM)
