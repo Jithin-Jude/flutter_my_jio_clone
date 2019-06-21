@@ -17,3 +17,21 @@ Web
 -
 <img width="295" alt="web2" src="https://user-images.githubusercontent.com/20029287/59912242-41d17600-9433-11e9-808a-b4eb42992ce1.png">
 <img width="640" alt="web1" src="https://user-images.githubusercontent.com/20029287/59912243-41d17600-9433-11e9-85b0-ba9dca1ef5cc.png">
+
+
+
+References
+=
+Migrate an existing Android/iOS Flutter project to Desktop
+-
+https://medium.com/flutter-community/flutter-for-desktop-create-and-run-a-desktop-application-ebeb1604f1e0
+
+https://github.com/google/flutter-desktop-embedding
+
+https://medium.com/flutter-community/flutter-from-mobile-to-desktop-93635e8de64e
+
+Migrate an existing Android/iOS Flutter project to Web
+-
+https://github.com/flutter/flutter_web/blob/master/docs/migration_guide.md
+
+https://medium.com/@joesithixaydouangchak/migrate-flutter-app-to-web-888738896091
